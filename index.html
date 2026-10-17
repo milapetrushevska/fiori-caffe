@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Fiori Caffe - Feel the Nature. Кафе, пијалаци и десерти.">
+
+    <title>Fiori Caffe | Feel the Nature</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+
+    <a href="#home" class="logo">
+        FIORI<span>.</span>
+    </a>
+
+    <nav class="nav" id="nav">
+        <a href="#home">Почетна</a>
+        <a href="#about">За нас</a>
+        <a href="#menu">Мени</a>
+        <a href="#gallery">Галерија</a>
+        <a href="#events">Настани</a>
+        <a href="#contact">Контакт</a>
+    </nav>
+
+    <div class="header-actions">
+        <button class="lang-btn" id="langBtn">EN</button>
+        <button class="menu-btn" id="menuBtn" aria-label="Отвори мени">☰</button>
+    </div>
+
+</header>
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">КАФЕ • ПРИРОДА • УЖИВАЊЕ</p>
+
+        <h1>Feel the <em>Nature.</em></h1>
+
+        <p class="hero-text">
+            Откриј го совршениот момент со арома на свежо кафе,
+            внимателно подготвени пијалаци и неодоливи десерти.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#menu" class="btn btn-primary">ПОГЛЕДНИ МЕНИ</a>
+            <a href="#about" class="btn btn-outline">ЗА НАС</a>
+        </div>
+
+    </div>
+
+    <div class="scroll-note">
+        ОТКРИЈ ГО FIORI <span>↓</span>
+    </div>
+
+</section>
+
+
+<!-- INTRO -->
+<section class="section intro">
+
+    <div class="intro-line"></div>
+
+    <p class="section-kicker">ДОБРЕДОЈДЕ ВО FIORI</p>
+
+    <h2>Место за мали <span>задоволства.</span></h2>
+
+    <p class="intro-copy">
+        Во Fiori секоја шолја кафе раскажува приказна.
+        Уживај во пријатна атмосфера, омилени вкусови
+        и моменти што вреди да се споделат.
+    </p>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+
+    <div class="about-image">
+        FIORI
+    </div>
+
+    <div class="about-content">
+
+        <p class="section-kicker">НАШАТА ПРИКАЗНА</p>
+
+        <h2>Повеќе од <em>кафе.</em></h2>
+
+        <p>
+            Fiori Caffe е создадено за оние што ги ценат
+            малите нешта: доброто кафе, убавиот разговор
+            и моментите на спокојство.
+        </p>
+
+        <p>
+            Со внимателно избрани вкусови и пријатен амбиент,
+            секоја посета станува посебно искуство.
+        </p>
+
+        <div class="features">
+
+            <div>
+                <strong>01</strong>
+                <span>Квалитетно кафе</span>
+            </div>
+
+            <div>
+                <strong>02</strong>
+                <span>Свежи вкусови</span>
+            </div>
+
+            <div>
+                <strong>03</strong>
+                <span>Убава атмосфера</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MENU -->
+<section class="section menu-section" id="menu">
+
+    <div class="section-heading">
+
+        <div>
+            <p class="section-kicker">ОТКРИЈ ГИ ВКУСОВИТЕ</p>
+            <h2>Нашето <em>мени.</em></h2>
+        </div>
+
+        <p>
+            Избери категорија и пронајди го
+            твојот следен омилен вкус.
+        </p>
+
+    </div>
+
+
+    <!-- CATEGORY BUTTONS -->
+    <div class="filters">
+
+        <button class="filter active" data-category="kafe">
+            Кафе
+        </button>
+
+        <button class="filter" data-category="pijaloci">
+            Безалкохолни Пијолаци
+        </button>
+
+        <button class="filter" data-category="deserti">
+            Алкохолни Пијалоци
+        </button>
+
+    </div>
+
+
+    <!-- MENU ITEMS -->
+    <div class="menu-grid">
+
+        <!-- COFFEE -->
+        <div class="menu-card" data-category="kafe">
+            <span class="menu-number">01</span>
+            <h3>Espresso</h3>
+            <p>Класичен, силен и ароматичен.</p>
+            <span class="price">70 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="kafe">
+            <span class="menu-number">02</span>
+            <h3>Cappuccino</h3>
+            <p>Кремаста пена и совршено кафе.</p>
+            <span class="price">100 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="kafe">
+            <span class="menu-number">03</span>
+            <h3>Americano</h3>
+            <p>Топла и ладна варијанта.</p>
+            <span class="price">80 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="kafe">
+            <span class="menu-number">04</span>
+            <h3>Latte</h3>
+            <p>Нежно кафе со топло млеко.</p>
+            <span class="price">110 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="kafe">
+            <span class="menu-number">05</span>
+            <h3>Macchiato</h3>
+            <p>Еспресо со допир кремаста пена.</p>
+            <span class="price">90 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="kafe">
+            <span class="menu-number">06</span>
+            <h3>Ice Coffee</h3>
+            <p>Освежително ладно кафе.</p>
+            <span class="price">120 ден.</span>
+        </div>
+
+
+        <!-- DRINKS -->
+        <div class="menu-card" data-category="pijaloci" hidden>
+            <span class="menu-number">01</span>
+            <h3>Lemonade</h3>
+            <p>Освежување со природен лимон.</p>
+            <span class="price">130 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="pijaloci" hidden>
+            <span class="menu-number">02</span>
+            <h3>Orange Juice</h3>
+            <p>Свежо цеден сок од портокал.</p>
+            <span class="price">150 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="pijaloci" hidden>
+            <span class="menu-number">03</span>
+            <h3>Ice Tea</h3>
+            <p>Ладен чај за освежување.</p>
+            <span class="price">130 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="pijaloci" hidden>
+            <span class="menu-number">04</span>
+            <h3>Jana Water</h3>
+            <p>Освежителна минерална вода.</p>
+            <span class="price">80 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="pijaloci" hidden>
+            <span class="menu-number">05</span>
+            <h3>Coca Cola</h3>
+            <p>Класичниот вкус што го сакаат сите.</p>
+            <span class="price">100 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="pijaloci" hidden>
+            <span class="menu-number">06</span>
+            <h3>Monin</h3>
+            <p>Освежителна лимонада со избран вкус.</p>
+            <span class="price">120 ден.</span>
+        </div>
+
+
+        <!-- DESSERTS -->
+        <div class="menu-card" data-category="deserti" hidden>
+            <span class="menu-number">01</span>
+            <h3>Skopsko</h3>
+            <p>Ладно домашно пиво.</p>
+            <span class="price">120 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="deserti" hidden>
+            <span class="menu-number">02</span>
+            <h3>Heineken</h3>
+            <p>Свежо и лесно светло пиво.</p>
+            <span class="price">130 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="deserti" hidden>
+            <span class="menu-number">03</span>
+            <h3>Red Wine</h3>
+            <p>Чаша вино со богат вкус.</p>
+            <span class="price">150 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="deserti" hidden>
+            <span class="menu-number">04</span>
+            <h3>Aperol Spritz</h3>
+            <p>Освежителен коктел со портокал.</p>
+            <span class="price">250 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="deserti" hidden>
+            <span class="menu-number">05</span>
+            <h3>Mojito</h3>
+            <p>Коктел со нане, лимета и мраз.</p>
+            <span class="price">180 ден.</span>
+        </div>
+
+        <div class="menu-card" data-category="deserti" hidden>
+            <span class="menu-number">06</span>
+            <h3>Gin Tonic</h3>
+            <p>Класичен и ладен коктел.</p>
+            <span class="price">180 ден.</span>
+        </div>
+
+    </div>
+
+
+
+</section>
+
+
+<!-- QUOTE -->
+<section class="quote-section">
+
+    <div class="quote-mark">“</div>
+
+    <blockquote>
+        Life happens,<br>
+        coffee helps.
+    </blockquote>
+
+    <p>YOUR DAILY MOMENT OF HAPPINESS</p>
+
+</section>
+
+
+<!-- GALLERY -->
+<section class="section gallery" id="gallery">
+
+    <div class="section-heading">
+
+        <div>
+            <p class="section-kicker">ПОГЛЕДНИ ОКОЛУ</p>
+            <h2>Мали моменти, <em>убави спомени.</em></h2>
+        </div>
+
+        <p>
+            Атмосфера создадена за уживање,
+            дружење и опуштање.
+        </p>
+
+    </div>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item tall">COFFEE & NATURE</div>
+        <div class="gallery-item">FRESH TASTE</div>
+        <div class="gallery-item">SWEET MOMENTS</div>
+        <div class="gallery-item wide">WELCOME TO FIORI</div>
+
+    </div>
+
+</section>
+
+
+<!-- EVENTS -->
+<section class="section events" id="events">
+
+    <div class="section-heading">
+
+        <div>
+            <p class="section-kicker">СЕ СРЕЌАВАМЕ ВО FIORI</p>
+            <h2>Нашите <em>настани.</em></h2>
+        </div>
+
+        <p>
+            Убавите моменти се уште поубави
+            кога ги споделуваме.
+        </p>
+
+    </div>
+
+    <div class="event-list">
+
+        <div class="event">
+            <div class="event-date">
+                <b>01</b>
+                <span>СЕКОЈ ДЕН</span>
+            </div>
+            <div>
+                <h3>Morning Coffee</h3>
+                <p>Започни го денот со омиленото кафе.</p>
+            </div>
+            <span class="event-arrow">↗</span>
+        </div>
+
+        <div class="event">
+            <div class="event-date">
+                <b>02</b>
+                <span>ВИКЕНД</span>
+            </div>
+            <div>
+                <h3>Sweet Weekend</h3>
+                <p>Викенд за десерти и пријатно дружење.</p>
+            </div>
+            <span class="event-arrow">↗</span>
+        </div>
+
+        <div class="event">
+            <div class="event-date">
+                <b>03</b>
+                <span>СЕКОЈА СЕЗОНА</span>
+            </div>
+            <div>
+                <h3>Seasonal Flavours</h3>
+                <p>Откриј ги вкусовите на сезоната.</p>
+            </div>
+            <span class="event-arrow">↗</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+
+    <div class="contact-content">
+
+        <p class="section-kicker">БИ САКАЛЕ ДА ТЕ ВИДИМЕ</p>
+
+        <h2>Ајде да се <em>запознаеме.</em></h2>
+
+        <div class="contact-details">
+
+            <p>
+                <small>АДРЕСА</small>
+                <span>Додади ја адресата на твоето кафуле</span>
+            </p>
+
+            <p>
+                <small>РАБОТНО ВРЕМЕ</small>
+                <span>Понеделник – Недела</span>
+            </p>
+
+            <p>
+                <small>КОНТАКТ</small>
+                <a href="mailto:hello@fioricaffe.com">
+                    hello@fioricaffe.com
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <form class="contact-form" id="contactForm">
+
+        <label>
+            Твоето име
+            <input type="text" name="name" placeholder="Како се викаш?" required>
+        </label>
+
+        <label>
+            Е-пошта
+            <input type="email" name="email" placeholder="Твојата е-пошта" required>
+        </label>
+
+        <label>
+            Порака
+            <textarea name="message" rows="3" placeholder="Напиши ни порака..." required></textarea>
+        </label>
+
+        <button type="submit" class="btn btn-primary">
+            ИСПРАТИ ПОРАКА
+        </button>
+
+        <p class="form-message" id="formMessage"></p>
+
+    </form>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <a href="#home" class="footer-logo">
+        FIORI<span>.</span>
+    </a>
+
+    <p>Feel the Nature.</p>
+
+    <div class="footer-bottom">
+        <span>© 2026 Fiori Caffe</span>
+        <span>Made with love & coffee</span>
+    </div>
+
+</footer>
+
+
+<!-- COOKIE NOTICE -->
+<div class="cookie" id="cookie">
+
+    <div>
+        <strong>Мали колачиња 🍪</strong>
+        <p>Оваа веб-страница може да користи колачиња за подобро искуство.</p>
+    </div>
+
+    <button id="cookieBtn">ВО РЕД</button>
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+<script>
+
+    // MENU CATEGORY FILTER
+
+    const filterButtons = document.querySelectorAll(".filter");
+    const menuCards = document.querySelectorAll(".menu-card");
+
+    filterButtons.forEach(function(button) {
+
+        button.addEventListener("click", function() {
+
+            const category = button.dataset.category;
+
+            filterButtons.forEach(function(btn) {
+                btn.classList.remove("active");
+            });
+
+            button.classList.add("active");
+
+            menuCards.forEach(function(card) {
+
+                if (card.dataset.category === category) {
+                    card.hidden = false;
+                } else {
+                    card.hidden = true;
+                }
+
+            });
+
+        });
+
+    });
+
+
+    // HEADER SCROLL EFFECT
+
+    const header = document.getElementById("header");
+
+    window.addEventListener("scroll", function() {
+
+        if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+
+    });
+
+
+    // MOBILE NAVIGATION
+
+    const menuBtn = document.getElementById("menuBtn");
+    const nav = document.getElementById("nav");
+
+    menuBtn.addEventListener("click", function() {
+        nav.classList.toggle("open");
+    });
+
+    nav.querySelectorAll("a").forEach(function(link) {
+
+        link.addEventListener("click", function() {
+            nav.classList.remove("open");
+        });
+
+    });
+
+
+    // COOKIE NOTICE
+
+    const cookie = document.getElementById("cookie");
+    const cookieBtn = document.getElementById("cookieBtn");
+
+    cookieBtn.addEventListener("click", function() {
+        cookie.style.display = "none";
+    });
+
+
+    // CONTACT FORM DEMO
+
+    const contactForm = document.getElementById("contactForm");
+    const formMessage = document.getElementById("formMessage");
+
+    contactForm.addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        formMessage.textContent =
+            "Ви благодариме! Формуларот е демонстративен и пораката не е испратена.";
+
+        contactForm.reset();
+
+    });
+
+
+    // EN BUTTON DEMO
+
+    const langBtn = document.getElementById("langBtn");
+
+    langBtn.addEventListener("click", function() {
+        alert("Англиската верзија сè уште не е поставена.");
+    });
+
+</script>
+
+</body>
+</html>
